@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { Card, CardImg, CardImgOverlay, CardText, CardBody, CardTitle } from  'reactstrap';
-//import Dishdetails from './DishdetailComponent.js';( goes in main component)
+
 
 class Menu extends Component {
     constructor(props) {
@@ -8,11 +8,6 @@ class Menu extends Component {
         // this.state = {
         //     selectedDish: null ( moved to MainComponent )
     }
-    // console.log('constructor');
-
-    // onDishSelect(dish){
-    //     this.setState({selectedDish:dish});
-    // } ( Moved to main component)
 
     renderDish(dish){
         if(dish!=null){

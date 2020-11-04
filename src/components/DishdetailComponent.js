@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
-import { Card, CardImg, CardImgOverlay, CardText, CardBody, CardTitle } from  'reactstrap';
+import { Card, CardImg, CardText, CardBody, CardTitle } from  'reactstrap';
 
 class Dishdetails extends Component{
-    convertDateToCommentDateFormat(timestamp) {
-        const date = new Date(timestamp);
-        return date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
-    }
+    // convertDateToCommentDateFormat(timestamp) {
+    //     const date = new Date(timestamp);
+    //     return date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+    // }
     renderDish(dish){
         return(
             <div className="row">
@@ -30,14 +30,16 @@ class Dishdetails extends Component{
             return (
                 <li>
                     <p>{comment.comment}</p>
-                    <p>-- {comment.author}, {this.convertDateToCommentDateFormat(comment.date)}</p>
+                    <p> {comment.author}
+                        {/*{this.convertDateToCommentDateFormat(comment.date)}*/}
+                    </p>
                 </li>
             );
         });
 
         return (
             <div>
-                <h4>Comments</h4>
+                <h0> About Project </h0>
                 <ul className="list-unstyled">
                     { renderedComments }
                 </ul>

@@ -2,184 +2,87 @@ export const DISHES =
     [
         {
             id: 0,
-            name:'Uthappizza',
-            image: 'assets/images/uthappizza.png',
+            name:'Morrell Ministries',
+            image: 'assets/images/morrell.png',
             category: 'mains',
             label:'Hot',
             price:'4.99',
-            description:'A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.',
+            description:'The organization provides 90-day re-settlement program\n' +
+                'The main objective of the 90-day reentry program by\n' +
+                'Sadey’s Place is to help the women returning from prison reestablish into the community,',
             comments: [
                 {
                     id: 0,
                     rating: 5,
-                    comment: "Imagine all the eatables, living in conFusion!",
-                    author: "John Lemon",
-                    date: "2012-10-16T17:57:28.556094Z"
+                    comment: " Problem, Solution, Statement ",
                 },
                 {
                     id: 1,
                     rating: 4,
-                    comment: "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
-                    author: "Paul McVites",
-                    date: "2014-09-05T17:57:28.556094Z"
+                    comment: " Jd Help my company ... We love the site and highly recommend him! ",
+                    author: " LaDonna Morrell CEO ",
                 },
-                {
-                    id: 2,
-                    rating: 3,
-                    comment: "Eat it, just eat it!",
-                    author: "Michael Jaikishan",
-                    date: "2015-02-13T17:57:28.556094Z"
-                },
-                {
-                    id: 3,
-                    rating: 4,
-                    comment: "Ultimate, Reaching for the stars!",
-                    author: "Ringo Starry",
-                    date: "2013-12-02T17:57:28.556094Z"
-                },
-                {
-                    id: 4,
-                    rating: 2,
-                    comment: "It's your birthday, we're gonna party!",
-                    author: "25 Cent",
-                    date: "2011-12-02T17:57:28.556094Z"
-                }
             ]                        },
         {
             id: 1,
-            name:'Zucchipakoda',
-            image: 'assets/images/zucchipakoda.png',
+            name:'Bounce Man Game',
+            image: 'assets/images/bounceman.png',
             category: 'appetizer',
             label:'',
             price:'1.99',
             description:'Deep fried Zucchini coated with mildly spiced Chickpea flour batter accompanied with a sweet-tangy tamarind sauce',
             comments: [
                 {
-                    id: 0,
-                    rating: 5,
-                    comment: "Imagine all the eatables, living in conFusion!",
-                    author: "John Lemon",
-                    date: "2012-10-16T17:57:28.556094Z"
+                    id:0,
+                    comment: " Problem, Solution, Results feel free to play game at this link " +
+                        "( Only works on desktop )" + " " + "https://jakthedev.github.io/CaptainBounce",
                 },
                 {
                     id: 1,
-                    rating: 4,
-                    comment: "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
-                    author: "Paul McVites",
-                    date: "2014-09-05T17:57:28.556094Z"
-                },
-                {
-                    id: 2,
-                    rating: 3,
-                    comment: "Eat it, just eat it!",
-                    author: "Michael Jaikishan",
-                    date: "2015-02-13T17:57:28.556094Z"
-                },
-                {
-                    id: 3,
-                    rating: 4,
-                    comment: "Ultimate, Reaching for the stars!",
-                    author: "Ringo Starry",
-                    date: "2013-12-02T17:57:28.556094Z"
-                },
-                {
-                    id: 4,
-                    rating: 2,
-                    comment: "It's your birthday, we're gonna party!",
-                    author: "25 Cent",
-                    date: "2011-12-02T17:57:28.556094Z"
+                    comment: " Great Job on the assignment I like that you.... Great job! ",
+                    author: " Dr Simon Katan University Of London Instructor "
+
                 }
             ]
         },
         {
             id: 2,
-            name:'Vadonut',
-            image: 'assets/images/vadonut.png',
+            name:' 23.5 Degrees Consulting ',
+            image: 'assets/images/235logo.png',
             category: 'appetizer',
             label:'New',
             price:'1.99',
-            description:'A quintessential ConFusion experience, is it a vada or is it a donut?',
+            description:' Website for Consulting website ',
             comments: [
                 {
                     id: 0,
-                    rating: 5,
-                    comment: "Imagine all the eatables, living in conFusion!",
-                    author: "John Lemon",
-                    date: "2012-10-16T17:57:28.556094Z"
+                    comment: " Problem, Solution, Results "
                 },
                 {
                     id: 1,
-                    rating: 4,
-                    comment: "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
-                    author: "Paul McVites",
-                    date: "2014-09-05T17:57:28.556094Z"
-                },
-                {
-                    id: 2,
-                    rating: 3,
-                    comment: "Eat it, just eat it!",
-                    author: "Michael Jaikishan",
-                    date: "2015-02-13T17:57:28.556094Z"
-                },
-                {
-                    id: 3,
-                    rating: 4,
-                    comment: "Ultimate, Reaching for the stars!",
-                    author: "Ringo Starry",
-                    date: "2013-12-02T17:57:28.556094Z"
-                },
-                {
-                    id: 4,
-                    rating: 2,
-                    comment: "It's your birthday, we're gonna party!",
-                    author: "25 Cent",
-                    date: "2011-12-02T17:57:28.556094Z"
+                    comment: " Did a good job at completing website, was very proactive and is a great " +
+                        "communicator. ",
+                    author: " Terrell Senior Developer "
                 }
             ]
         },
         {
             id: 3,
-            name:'ElaiCheese Cake',
-            image: 'assets/images/elaicheesecake.png',
+            name:' Puzzle Huddle Game App ',
+            image: 'assets/images/puzzlehuddle.png',
             category: 'dessert',
             label:'',
             price:'2.99',
-            description:'A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker crust and spiced with Indian cardamoms',
+            description:'Gaming App for Kids Puzzle Building',
             comments: [
                 {
                     id: 0,
-                    rating: 5,
-                    comment: "Imagine all the eatables, living in conFusion!",
-                    author: "John Lemon",
-                    date: "2012-10-16T17:57:28.556094Z"
+                    comment: " Problem, Solution, Results "
                 },
                 {
                     id: 1,
-                    rating: 4,
-                    comment: "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
-                    author: "Paul McVites",
-                    date: "2014-09-05T17:57:28.556094Z"
-                },
-                {
-                    id: 2,
-                    rating: 3,
-                    comment: "Eat it, just eat it!",
-                    author: "Michael Jaikishan",
-                    date: "2015-02-13T17:57:28.556094Z"
-                },
-                {
-                    id: 3,
-                    rating: 4,
-                    comment: "Ultimate, Reaching for the stars!",
-                    author: "Ringo Starry",
-                    date: "2013-12-02T17:57:28.556094Z"
-                },
-                {
-                    id: 4,
-                    rating: 2,
-                    comment: "It's your birthday, we're gonna party!",
-                    author: "25 Cent",
-                    date: "2011-12-02T17:57:28.556094Z"
+                    comment: " was on the consulting company team that project was created, team did a great job  ",
+                    author: " Terrell Senior Developer "
                 }
             ]
         }

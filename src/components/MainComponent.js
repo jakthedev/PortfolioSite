@@ -1,16 +1,12 @@
 import React, { Component } from 'react';
-import { Navbar, NavbarBrand } from 'reactstrap';
+import Container, { Navbar, NavbarBrand } from 'reactstrap';
 import Menu from './MenuComponents';
 import Dishdetails from './DishdetailComponent.js';
 import { DISHES } from '../shared/dishes';
+import Jumbotron from "reactstrap/es/Jumbotron";
 
 
 class Main extends Component {
-
-
-
-
-
 
     constructor(props) {
         super(props);
@@ -30,9 +26,14 @@ class Main extends Component {
     render() {
         return (
             <div>
+                <Jumbotron fluid>
+                        <h1 className="display-3">Fluid jumbotron</h1>
+                        <p className="lead">This is a modified jumbotron that occupies the entire
+                            horizontal space of its parent.</p>
+                </Jumbotron>
                 <Navbar dark color={"primary"}>
                     <div className="container">
-                        <NavbarBrand href={"/"}> JD A Kemp </NavbarBrand>
+                        <NavbarBrand href={"/"}> JAK The Dev </NavbarBrand>
                     </div>
                 </Navbar>
                 <Menu dishes={this.state.dishes}
